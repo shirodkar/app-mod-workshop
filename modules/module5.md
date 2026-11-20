@@ -86,16 +86,6 @@ To view the code in Dev Spaces, click on the contributor badge [![Contribute](..
 
 ![Quarkus Output](../images/quarkus-output.png)
 
-```
-Listening for transport dt_socket at address: 5005
-__  ____  __  _____   ___  __ ____  ______
- --/ __ \/ / / / _ | / _ \/ //_/ / / / __/
- -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \
---\___\_\____/_/ |_/_/|_/_/|_|\____/___/
-INFO  [io.quarkus] (Quarkus Main Thread) mammoth-backend 1.0.0-SNAPSHOT on JVM
-INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [...]
-```
-
 ## Build
 
 > **TASK:** In the OpenShift console, select **Build → BuildConfigs**.
