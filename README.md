@@ -12,10 +12,9 @@ A hands-on workshop that walks you through modernizing a legacy Java EE monolith
 | [Module 4](modules/module4.md) | Replatforming to OpenShift Containers | Containerize the application using the JBoss EAP 8 Operator |
 | [Module 5](modules/module5.md) | Refactoring to Microservices | Refactor the backend to a Quarkus microservice using the Strangler Fig pattern |
 
-## Prerequisites
+## Setup
 
-- Access to an OpenShift cluster with Dev Spaces
-- OpenShift credentials provided by the workshop instructor
+Workshop setup instructions are available in the [app-mod-gitops](https://github.com/shirodkar/app-mod-gitops) project.
 
 ## Getting Started
 
