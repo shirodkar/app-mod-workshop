@@ -20,6 +20,8 @@ Follow these instructions to analyze the code:
 
 > **TASK:** Click on the **Open Analysis Panel** button on the left.
 
+![MTA Open Analysis Panel](../images/mta-open-analysis-panel.png)
+
 > **TASK:** Make sure that the **'EAP7 to EAP8'** profile is selected in the dropdown.
 
 > **TASK:** Make sure that **'Agent Mode'** is selected.
@@ -27,6 +29,8 @@ Follow these instructions to analyze the code:
 > **TASK:** Click on the **'Start'** button.
 
 > **TASK:** Click on the **'Run Analysis'** button.
+
+![MTA Analysis Results - EAP8](../images/mta-analysis-eap8.png)
 
 After a few seconds, under the Analysis Results panel, you should see a few issues listed.
 
