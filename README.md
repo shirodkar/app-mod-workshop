@@ -14,7 +14,10 @@ A hands-on workshop that walks you through modernizing a legacy Java EE monolith
 
 ## Setup
 
-Workshop setup instructions are available in the [app-mod-gitops](https://github.com/shirodkar/app-mod-gitops) project.
+Workshop setup instructions are available in the app-mod-gitops project:
+
+- **OCP 5:** [app-mod-gitops (ocp5 branch)](https://github.com/shirodkar/app-mod-gitops/tree/ocp5)
+- **OCP 4:** [app-mod-gitops](https://github.com/shirodkar/app-mod-gitops)
 
 ## Getting Started
 
