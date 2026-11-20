@@ -18,6 +18,8 @@ To use the Strangler Fig approach, the backend component has already been pulled
 
 > **TASK:** If prompted, click on the **"Login with OpenShift"** button.
 
+![Login with OpenShift](../images/devspaces-login.png)
+
 > **TASK:** Provide your OpenShift credentials:
 > - **Username:** `${USERNAME}`
 > - **Password:** `${PASSWORD}`
@@ -122,4 +124,6 @@ To test, just like we did earlier, access the application using the URL provided
 
 Instead of accessing the local backend component, it is now using the Quarkus backend microservice.
 
-You should be able to see a new category called **'Elephants'** now.
+You should be able to see a new category called **'Elephants'** now:
+
+![Elephants](../images/elephants.png)

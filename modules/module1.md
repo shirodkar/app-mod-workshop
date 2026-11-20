@@ -4,6 +4,8 @@ As a developer participating in this lab, your main goal is the modernization of
 
 There are different strategies we will be using to modernize this application.
 
+![6 Rs of Modernization](../images/6rs.png)
+
 The main focus for this lab is going to be around the **Retain**, **Rehost**, **Replatform** and **Refactor** strategies.
 
 But before we jump into our modernization journey, let's take a closer look at the Mammoth application.
@@ -13,6 +15,8 @@ But before we jump into our modernization journey, let's take a closer look at t
 Mammoth is currently built on **Java EE 8** and runs on a **JBoss EAP 7** server inside a VM. It includes a backend component that provides APIs for serving facts about mammoths, along with a frontend component that provides a user interface to display those facts.
 
 The backend component retrieves facts about mammoths from the **Mammoth DB**. This is a PostgreSQL database that is deployed in another VM.
+
+![Legacy Architecture](../images/architecture-legacy-vmware.png)
 
 > **TASK:** You can access the source code for this application [here](https://github.com/shirodkar/mammoth-ear).
 
@@ -25,6 +29,8 @@ To explore the application in OpenShift Dev Spaces, follow these steps:
 > **TASK:** Click on the contributor badge in the README section, or click on [this link](https://devspaces.apps.${OCP_BASE_URL}/#https://github.com/shirodkar/mammoth-ear).
 
 > **TASK:** If prompted, click on the **"Login with OpenShift"** button.
+
+![Login with OpenShift](../images/devspaces-login.png)
 
 > **TASK:** Provide your OpenShift credentials:
 > - **Username:** `${USERNAME}`
