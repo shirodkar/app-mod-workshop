@@ -24,3 +24,7 @@ For a demo of how to migrate VMs using the Migration Toolkit for Virtualization 
 
 - [MTV Demo - Video 1](https://youtu.be/Heboif_e7WE?si=aXhN2szr12yeiPJw)
 - [MTV Demo - Video 2](https://www.youtube.com/watch?v=fQKoUm3MMoE)
+
+---
+
+**Next:** [Module 4: Replatforming to OpenShift Containers](module4.md)

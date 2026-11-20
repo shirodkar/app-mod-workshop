@@ -129,3 +129,7 @@ The **JBoss EAP Operator** has already been installed on the OpenShift cluster.
 An instance of **WildflyServer** has also been created which deploys the image created above.
 
 The application can be accessed using the URL provided by the `mammoth-route` OpenShift Route under the **replatform** project.
+
+---
+
+**Next:** [Module 5: Refactoring to Microservices](module5.md)

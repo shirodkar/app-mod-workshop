@@ -109,3 +109,7 @@ EAP 7 initialized with PostgreSQL datasource
 ---
 
 Now that you are familiar with the Mammoth application, let's work on modernizing it...
+
+---
+
+**Next:** [Module 2: Upgrading to EAP 8](module2.md)

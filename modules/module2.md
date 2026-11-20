@@ -69,3 +69,7 @@ You can view the source code for the upgraded application [here](https://github.
 To view the code in an IDE, click on the contributor badge [![Contribute](../images/contributor-badge.svg)](https://devspaces.apps.${OCP_BASE_URL}/#https://github.com/shirodkar/mammoth-ear/tree/eap8), or [this link](https://devspaces.apps.${OCP_BASE_URL}/#https://github.com/shirodkar/mammoth-ear/tree/eap8).
 
 You can follow the same steps as in [Module 1](module1.md) to test and run the application, only that now it will run on **JBoss EAP 8**.
+
+---
+
+**Next:** [Module 3: Rehosting to OpenShift Virtualization](module3.md)
