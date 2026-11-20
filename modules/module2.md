@@ -4,6 +4,8 @@ Because the application relies on an unsupported, outdated technology stack and 
 
 Consequently, your initial objective is upgrading the system to **Jakarta EE 10** and deploying the application on a **JBoss EAP 8** server.
 
+![Retain and Upgrade Architecture](../images/architecture-retain-upgrade.png)
+
 ## Why Jakarta EE 10?
 
 Jakarta EE 10 introduced a lot of changes when compared to Java EE 8. Luckily, the **Migration Toolkit for Applications (MTA)** tool from Red Hat has built-in rules that help you identify areas in the code that need modification in order to comply with the Jakarta EE 10 specification. Not only that, the latest version of MTA, called **Developer Lightspeed for MTA**, provides AI capabilities to help you implement these code changes.
