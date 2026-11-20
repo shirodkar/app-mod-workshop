@@ -26,7 +26,7 @@ The IDE you will be using today is **OpenShift Dev Spaces**. This is a browser-b
 
 To explore the application in OpenShift Dev Spaces, follow these steps:
 
-> **TASK:** Click on the contributor badge in the README section, or click on [this link](https://devspaces.apps.${OCP_BASE_URL}/#https://github.com/shirodkar/mammoth-ear).
+> **TASK:** Click on the contributor badge [![Contribute](../images/contributor-badge.svg)](https://devspaces.apps.${OCP_BASE_URL}/#https://github.com/shirodkar/mammoth-ear) in the README section, or click on [this link](https://devspaces.apps.${OCP_BASE_URL}/#https://github.com/shirodkar/mammoth-ear).
 
 > **TASK:** If prompted, click on the **"Login with OpenShift"** button.
 

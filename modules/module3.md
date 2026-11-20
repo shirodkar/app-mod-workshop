@@ -2,6 +2,8 @@
 
 The Mammoth application and its Database have already been rehosted on **OpenShift Virtualization**.
 
+![Rehost Architecture](../images/architecture-rehost.png)
+
 ## Accessing the Rehosted Application
 
 > **TASK:** Log into the OpenShift console as a developer user.
@@ -11,6 +13,8 @@ The Mammoth application and its Database have already been rehosted on **OpenShi
 > **TASK:** Select **'Virtual Machines'**.
 
 > **TASK:** Expand the **'rehost'** project. You should be able to see both VMs listed — `mammoth-eap-vm` and `postgresql-vm`.
+
+![Rehost VMs](../images/rehost-vms.png)
 
 > **TASK:** Select **Networking → Routes** and click on the Route URL. It will launch the rehosted Mammoth application in a new browser tab. (Make sure that the URL starts with `http://`)
 

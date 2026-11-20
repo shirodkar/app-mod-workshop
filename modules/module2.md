@@ -46,9 +46,15 @@ Here are the steps to do that:
 
 > **TASK:** In the Analysis Results section, change the **"Group by"** dropdown from Issues to Files.
 
+![MTA Results by File](../images/mta-eap8-results-by-file.png)
+
 > **TASK:** Look for the file **MammothResource.java** and click the AI button against it. This will launch the Resolution Panel. MTA will send the issue description along with the code to the LLM, and the LLM will respond with the required code changes.
 
+![MTA AI Resolution Trigger](../images/mta-ai-resolution-trigger.png)
+
 > **TASK:** Read through the recommended code changes and then click on the blue **Accept** button for each recommendation. (You may even click on **'Review in Editor'** and Accept changes within the file before clicking on the blue Accept button). You will see that the changes have been applied and are ready to be committed.
+
+![MTA AI Resolution](../images/mta-ai-resolution.png)
 
 Typically you would go over each issue and apply the resolutions in a similar fashion.
 
@@ -60,6 +66,6 @@ We have done that for you already and the changes are available in the branch na
 
 You can view the source code for the upgraded application [here](https://github.com/shirodkar/mammoth-ear/tree/eap8).
 
-To view the code in an IDE, click on the contributor badge, or [this link](https://devspaces.apps.${OCP_BASE_URL}/#https://github.com/shirodkar/mammoth-ear/tree/eap8).
+To view the code in an IDE, click on the contributor badge [![Contribute](../images/contributor-badge.svg)](https://devspaces.apps.${OCP_BASE_URL}/#https://github.com/shirodkar/mammoth-ear/tree/eap8), or [this link](https://devspaces.apps.${OCP_BASE_URL}/#https://github.com/shirodkar/mammoth-ear/tree/eap8).
 
 You can follow the same steps as in [Module 1](module1.md) to test and run the application, only that now it will run on **JBoss EAP 8**.

@@ -2,6 +2,8 @@
 
 In this module, we will run the upgraded Jakarta EE 10 application on a **"containerized" JBoss EAP 8** server. The container itself will be managed by the **JBoss EAP 8 Operator** on OpenShift.
 
+![Replatform Architecture](../images/architecture-replatform.png)
+
 ## Source Code Changes
 
 We need to create a container image of the application and the EAP runtimes.
@@ -103,6 +105,8 @@ In addition, if there are custom modules that you would like to add to the EAP s
 ## Build
 
 Now that the application build is modified, we will now work on building the container image. This involves a 2-step process:
+
+![S2I Process](../images/replatform-s2i-process.png)
 
 ### Source-to-Image (S2I)
 

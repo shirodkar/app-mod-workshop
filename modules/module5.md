@@ -6,6 +6,8 @@ We will start with the **backend-api** module and convert it to a **Quarkus** mi
 
 The frontend module can still continue to run inside of EAP 8 as a Jakarta EE application, but instead of calling APIs locally, it will invoke APIs provided by the backend-api Quarkus microservice.
 
+![Refactor Architecture](../images/architecture-refactor.png)
+
 ## Mammoth Backend
 
 To use the Strangler Fig approach, the backend component has already been pulled out into a separate project called **mammoth-backend**.
@@ -14,7 +16,7 @@ To use the Strangler Fig approach, the backend component has already been pulled
 
 ### Exploring the Application in Dev Spaces
 
-> **TASK:** Click on the contributor badge in the README section, or click on [this link](https://devspaces.apps.${OCP_BASE_URL}/#https://github.com/shirodkar/mammoth-backend).
+> **TASK:** Click on the contributor badge [![Contribute](../images/contributor-badge.svg)](https://devspaces.apps.${OCP_BASE_URL}/#https://github.com/shirodkar/mammoth-backend) in the README section, or click on [this link](https://devspaces.apps.${OCP_BASE_URL}/#https://github.com/shirodkar/mammoth-backend).
 
 > **TASK:** If prompted, click on the **"Login with OpenShift"** button.
 
@@ -74,13 +76,15 @@ We have done that for you already and the changes are available in the branch na
 
 You can view the source code for the refactored application [here](https://github.com/shirodkar/mammoth-backend/tree/refactor).
 
-To view the code in Dev Spaces, click on the contributor badge, or [this link](https://devspaces.apps.${OCP_BASE_URL}/#https://github.com/shirodkar/mammoth-backend/tree/refactor).
+To view the code in Dev Spaces, click on the contributor badge [![Contribute](../images/contributor-badge.svg)](https://devspaces.apps.${OCP_BASE_URL}/#https://github.com/shirodkar/mammoth-backend/tree/refactor), or [this link](https://devspaces.apps.${OCP_BASE_URL}/#https://github.com/shirodkar/mammoth-backend/tree/refactor).
 
 ### Testing the Application
 
 > **TASK:** In Dev Spaces, click on the search bar on top → **Run task** → **devfile**.
 
 > **TASK:** Execute the **"Start Quarkus dev mode"** task. You should see the following output:
+
+![Quarkus Output](../images/quarkus-output.png)
 
 ```
 Listening for transport dt_socket at address: 5005
